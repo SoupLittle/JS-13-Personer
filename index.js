@@ -42,11 +42,10 @@ const ansatt = [
     {
       name: "Sissel Moen",
       role: "Administrasjonsleder",
-      image: "Bildet"
+      image: "img/sissel-moen.jpg"
     }
   ];
 
 //   console.log(ansatt[8]); 
 
-
-// document.write(ansatt[8])
+//document.write(ansatt.images)

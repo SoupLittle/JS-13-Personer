@@ -6,6 +6,7 @@ h1{
     line-height: 48px;
     margin: 0; 
     text-align: center;
+    margin-top: 30px;
 }
 
 h3{
@@ -18,13 +19,66 @@ h3{
     text-align: center;
 }
 
-.mid{
-    border-color: #575141;
-    border-style: dotted;
-    border-radius: 10px;
-    border-width: 2px 2px;
-    width: 600px;
-    height: 70px;
-    margin-top: 50px;
-    margin-left: 450px;
+
+/* Input from https://codepen.io/lucasyem/pen/ZEEYKdj */
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin: 10px auto 0; 
+    width: 30%;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #7c795d;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  
+    &::placeholder {
+      color: transparent;
+    }
+  
+    &:placeholder-shown ~ .form__label {
+      font-size: 1.3rem;
+      cursor: text;
+      top: 20px;
+    }
+  }
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #7c795d;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #574c41;
+    font-weight:700;    
+  }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #574c41,#bdb3a8);
+  border-image-slice: 1;
+}
+
+/* reset input */
+.form__field{
+  &:required,&:invalid { box-shadow:none; }
 }
