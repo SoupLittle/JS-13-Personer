@@ -1,3 +1,9 @@
+*{
+    background-color: #fdfbe3;
+}
+
+
+
 h1{
     color: #7c795d;
     font-family: 'Trocchi',serif;
@@ -19,8 +25,41 @@ h3{
     text-align: center;
 }
 
+/* TODO: */
 
-/* Input from https://codepen.io/lucasyem/pen/ZEEYKdj */
+.result-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result-image {
+  width: 250px;
+  /* Adjust the size as needed */
+  border-radius: 25%;
+}
+
+.result-name {
+  font-size: 24px;
+  color: #574c41;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.result-role {
+  font-size: 16px;
+  color: #574c41;
+  margin-top: 5px;
+}
+
+/* .result-text {
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #574c41;
+} */
+
+/* Input from https://codepen.io/lucasyem/pen/ZEEYKdj og noen modifikasjoner fra meg*/
 
 .form__group {
     position: relative;
@@ -30,13 +69,13 @@ h3{
   }
   
   .form__field {
-    font-family: inherit;
+    font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
     border: 0;
     border-bottom: 2px solid #7c795d;
     outline: 0;
     font-size: 1.3rem;
-    color: #fff;
+    color: #7c6d5d;
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s;
@@ -46,7 +85,7 @@ h3{
     }
   
     &:placeholder-shown ~ .form__label {
-      font-size: 1.3rem;
+      font-size: 20px;
       cursor: text;
       top: 20px;
     }
@@ -57,7 +96,7 @@ h3{
   top: 0;
   display: block;
   transition: 0.2s;
-  font-size: 1rem;
+  font-size: 16px;
   color: #7c795d;
 }
 
@@ -67,7 +106,7 @@ h3{
     top: 0;
     display: block;
     transition: 0.2s;
-    font-size: 1rem;
+    font-size: 16px;
     color: #574c41;
     font-weight:700;    
   }
