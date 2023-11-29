@@ -2,7 +2,7 @@ var ansatt = [
   {
     name: "Laila Johanne Handelsby",
     role: "Rektor",
-    image: "img/rektor-laila-handelsby.jpg",
+    image: "./img/rektor-laila-handelsby.jpg",
     text:  "Integer pretium justo a nisi rutrum, a ultricies eros dictum. Nunc rhoncus lacinia eros. Aenean nec ultricies sem, maximus mattis nibh."+ "\r\n" +"In tincidunt turpis pulvinar nisi lobortis aliquam. Sed nec orci quis elit placerat vehicula eget quis lorem. Sed sagittis vulputate augue."+ "\r\n" +"Duis tincidunt gravida turpis, in pellentesque sapien convallis vitae. Mauris luctus purus ante, ut aliquet elit ultricies et."+ "\r\n" +"Vestibulum scelerisque, nulla eu tempor auctor, diam dolor efficitur mi, in aliquet nisl elit at ex."+ "\r\n" +"Etiam erat dolor, tempus vitae mauris at, ornare mollis sem. Integer non ex eu tellus elementum semper in in justo."+ "\r\n" +"Vestibulum scelerisque, nulla eu tempor auctor, diam dolor efficitur mi, in aliquet nisl elit at ex."+ "\r\n" +"Etiam erat dolor, tempus vitae mauris at, ornare mollis sem. Integer non ex eu tellus elementum semper in in justo."
   },
   {
